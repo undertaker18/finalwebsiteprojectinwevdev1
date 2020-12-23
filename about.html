@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <title>About | Story</title>
+
+    <style>
+        .bd-placeholder-img {
+   
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+
+                body {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        color: #5a5a5a;
+      
+        }
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+        .carousel {
+        margin-bottom: 8rem;
+        }
+        /* Since positioning the image, we need to help out the caption */
+        .carousel-caption {
+        z-index: 10;
+        }
+
+        /* Declare heights because of positioning of img element */
+        .carousel-item {
+        height: 60rem;
+        }
+        .carousel-item > img {
+        position:absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: 100%;
+        }
+        .carousel-item > h2 {
+          padding-bottom: 30rem;
+        }
+         h1 {
+           font-size: 100px;
+           font-family: 'Parisienne', cursive;
+           margin-bottom: 33rem;
+           margin-top: 20rem;
+         
+         }
+         .title {
+           font-size: 180px;
+         }
+
+         .logo{
+          font-size: 30px;
+         }
+
+         
+         .hov {
+           color:rgb(0, 0, 0);
+           text-decoration: none;
+         }
+         .hov:hover {
+          color:rgba(9, 100, 136, 0.979);
+          text-decoration: none;
+         }
+
+
+
+        /* MARKETING CONTENT
+        -------------------------------------------------- */
+
+        /* Center align the text within the three columns below the carousel */
+        .marketing .col-lg-4 {
+        margin-bottom: 1.5rem;
+        text-align: center;
+        }
+        .marketing h2 {
+        font-weight: 400;
+        }
+        .marketing .col-lg-4 p {
+        margin-right: .75rem;
+        margin-left: .75rem;
+        }
+
+
+        /* Featurettes
+        ------------------------- */
+
+        .featurette-divider {
+        margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+        }
+
+        /* Thin out the marketing headings */
+        .featurette-heading {
+        font-weight: 300;
+        line-height: 1;
+        letter-spacing: -.05rem;
+        }
+
+
+
+
+        html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 5px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container2 {
+  padding: 0 16px;
+}
+
+.container2::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.titles {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgb(0, 100, 158);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.button a {
+  color: white;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.buttons {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: rgb(0, 154, 243);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.buttons:hover {
+  background-color: rgb(95, 95, 95);
+}
+
+.but a {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.but a:hover {
+  background-color: rgb(143, 143, 143);
+}
+
+        /* RESPONSIVE CSS
+        -------------------------------------------------- */
+
+        @media (min-width: 50em) {
+        /* Bump up size of carousel content */
+        .carousel-caption p {
+            margin-bottom: 1.25rem;
+            font-size: 1.25rem;
+            line-height: 1.4;
+        }
+
+        .featurette-heading {
+            font-size: 50px;
+        }
+        }
+
+        @media (min-width: 62em) {
+        .featurette-heading {
+            margin-top: 7rem;
+        }
+        }
+
+         /* footer
+        -------------------------------------------------- */
+
+        footer {
+            text-align: center;
+            overflow: hidden;
+            width: 100%;
+          
+        }
+        footer ul > li {  
+            display: inline-block;
+        }
+        footer li {
+          padding: 15px;
+        }
+
+        .container h1{
+          color: aliceblue;
+          font-size: 170px;
+        }
+
+        .formtext
+        {
+            width: 100%;
+            height:  490px;
+            box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+            background:#0972808f;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 2% auto 2%;
+            text-align: center;
+            z-index: 999;
+            margin-top: 40%;
+        }
+        .formtext2
+        {
+            width: 100%;
+            height:  290px;
+            box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+            background:#0972808f;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 2% auto 2%;
+            text-align: center;
+            z-index: 999;
+            margin-top: 45%;
+            margin-bottom: 20%;
+        }
+
+        .formtext3
+        {
+            width: 100%;
+            height:  690px;
+            box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+            background:#0972808f;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 2% auto 2%;
+            text-align: center;
+            z-index: 999;
+            margin-top: 45%;
+            margin-bottom: 20%;
+        }
+
+        
+        .formtext4
+        {
+            width: 100%;
+            height:  780px;
+            box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+            background:#0972808f;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 2% auto 2%;
+            text-align: center;
+            z-index: 999;
+            margin-top: 45%;
+           
+        }
+         .innerform {
+          padding-top: 65px;
+         }
+
+         .formtext p{
+    
+           text-align: center;
+           font-size: 30px;
+           color: aliceblue;
+           padding-top: 35px;
+           font-family: cursive;
+           padding-left: 10px;
+           padding-right: 10px;
+         }
+         .formtext2 p{
+           text-align: center;
+           font-size: 30px;
+           color: aliceblue;
+           padding-top: 45px;
+           font-family: cursive;
+         }
+
+         
+      </style>
+
+  </head>
+  <body>
+
+    <header>
+    
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+          <a class="navbar-brand text-info logo " href="index.html">Stories Behind the Notebook<span class="sr-only">(current)</span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="teachers.html">Teachers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="student.html">Students</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="staff.html">Staff</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="about.html">About</a>
+              </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-2">
+              <button class=" text-info border border-info btn btn-outline my-sm-3 my-sm-0" type="submit" ><a href="./contactus.html" class="hov">Contact Us</a></button>            </form>
+          </div>
+        </nav>
+      
+      </header>
+
+          <main role="main">
+            <div id="myCarousel" class="carousel" data-ride="carousel">     
+              <div class="carousel-inner"> 
+                <div class="carousel-item active">
+                  <div class="carousel-caption text-xl-start">
+                    <h1><span class="title">A</span>bout Us</h1>
+                  </div>
+                    <img src=".//img/bgt14.jpg"  alt="LV" width="100%" height="100%" style="object-fit:cover ; position :fixed">
+                </div>
+               
+              </div>
+              
+            </div>
+          
+            <div id="myCarousel" class="carousel" data-ride="carousel"></div>
+          
+            <div class="album py-5 bg-light">
+
+              <div class="container">
+
+                <div class="row">
+                  <div class="column">
+                    <div class="card">
+                      <img src="./img/jun.jpg" alt="Jane" style="width:100% ; height: 300px ; object-fit:cover ">
+                      <div class="container2">
+                        <h2>Jun Babera</h2>
+                        <p class="titles">Leader</p>
+                        <p>Computer hardware expert</p>
+                        <p>junbabera@laverdad.student.edu.ph</p>
+                        <p><a href="https://www.facebook.com/junbabera/" target="_blank" ><button class="button">Contact</button></a></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="column">
+                    <div class="card">
+                      <img src="./img/88253756_2612592945690328_3348873201412210688_n.jpg" alt="Mike" style="width:100%; height: 300px ; object-fit:cover">
+                      <div class="container2">
+                        <h2>Melrose Cortes</h2>
+                        <p class="titles  ">Researcher</p>
+                        <p>Business Analyst</p>
+                        <p>melrosecortez@laverdad.student.edu.ph</p>
+                        <p><a href="https://www.facebook.com/Esorlem.U.23/" target="_blank" ><button class="button">Contact</button></a></p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="column">
+                    <div class="card">
+                      <img src="./img/profile2.jpg" alt="John" style="width:100%; height: 300px; object-fit:cover">
+                      <div class="container2">
+                        <h2>Jordan Earl Pascua</h2>
+                        <p class="titles">Designer</p>
+                        <p>Graphic designer</p>
+                        <p>jordanearlpascua@laverdad.student.edu.ph</p>
+                        <p><a href="https://www.facebook.com/jordanearlpascua28/" target="_blank" ><button class="button">Contact</button></a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <br><br><br><br>
+                  <div class="formtext">
+                    <p>
+                      “Wisdom Based on the Truth is Priceless.” This is the tag line of our school, the La Verdad Chistian College. We, as students of this institution, created this website for the readers that are enthusiast about the story of our beloved teachers, as well as the students and all the staff of the school and other schools. This is to share each story that can inspire the readers. How a student has been successful in his or her studies, struggles and keeping to continue the journey, associated endurance with every step and love of teachers to share their knowledge with students who become their children within the school.
+                    </p>
+                  </div>
+
+                  <div class="formtext2">
+                    <p>
+                      We, Jun, Earl and Melrose created this project and we hope that every reader will be inspired through this medium and send their stories too. Salute to all teachers, students and staff.
+                    </p>
+                  </div>
+                  
+                  <div class="formtext3">
+                    <p class="innerform">
+                      <img src="./img/about1.jpg" width="85%" height="500px" >
+                    </p>
+                  </div>
+
+                  <div class="formtext4">
+                    <p class="innerform">
+                      <img src="./img/about2.png" width="70%" height="600px" >   </p>
+                  </div>
+                  
+                </div>              
+              </div>          
+           </div>
+      </main>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

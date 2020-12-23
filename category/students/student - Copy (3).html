@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+    <script type="text/javascript" src="../../jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="../../query.js"></script>
+
+    <title>Student | Story</title>
+
+    <style>
+        .bd-placeholder-img {
+   
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+           margin: 80px;
+          }
+        }
+
+                body {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        background-image: url("paper.gif");
+      
+        }
+
+
+            /* CUSTOMIZE THE CAROUSEL
+            -------------------------------------------------- */
+
+            /* Carousel base class */
+        .carousel {
+        margin-bottom: 8rem;
+        }
+        /* Since positioning the image, we need to help out the caption */
+        .carousel-caption {
+        z-index: 10;
+        }
+
+        /* Declare heights because of positioning of img element */
+        .carousel-item {
+        height: 60rem;
+        }
+        .carousel-item > img {
+        position:absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: 100%;
+        }
+        .carousel-item > h2 {
+          padding-bottom: 30rem;
+        }
+         h1 {
+           font-size: 100px;
+           font-family: 'Parisienne', cursive;
+           margin-bottom: 33rem;
+           margin-top: 20rem;
+           padding-top: 30px;
+         
+         }
+         .title {
+           font-size: 180px;
+         }
+
+         .logo{
+          font-size: 30px;
+         }
+
+         .hov {
+           color:rgb(0, 0, 0);
+           text-decoration: none;
+         }
+         .hov:hover {
+          color:rgba(9, 100, 136, 0.979);
+          text-decoration: none;
+         }
+
+
+        /* MARKETING CONTENT
+        -------------------------------------------------- */
+
+        /* Center align the text within the three columns below the carousel */
+        .marketing .col-lg-4 {
+        margin-bottom: 1.5rem;
+        text-align: center;
+        }
+        .marketing h2 {
+        font-weight: 400;
+        }
+        .marketing .col-lg-4 p {
+        margin-right: .75rem;
+        margin-left: .75rem;
+        }
+
+
+        /* Featurettes
+        ------------------------- */
+
+        .featurette-divider {
+        margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+        }
+
+        /* Thin out the marketing headings */
+        .featurette-heading {
+        font-weight: 300;
+        line-height: 1;
+        letter-spacing: -.05rem;
+        }
+
+
+        /* RESPONSIVE CSS
+        -------------------------------------------------- */
+
+        @media (min-width: 50em) {
+        /* Bump up size of carousel content */
+        .carousel-caption p {
+            margin-bottom: 1.25rem;
+            font-size: 1.25rem;
+            line-height: 1.4;
+        }
+
+        .featurette-heading {
+            font-size: 50px;
+        }
+        }
+
+        @media (min-width: 62em) {
+        .featurette-heading {
+            margin-top: 7rem;
+        }
+        }
+
+         /* footer
+        -------------------------------------------------- */
+
+    
+
+         /*     FOOTER    */
+
+        footer {
+            text-align: center;
+            overflow: hidden;
+            width: 100%;
+        }
+        footer ul > li {  
+            display: inline-block;
+        }
+        footer li {
+        padding: 15px;
+        }
+
+        .content2 {
+            margin: 0 20%;
+            background-image: url(https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.0-9/81366679_1074385009565311_3132898477420314624_o.jpg?_nc_cat=100&ccb=2&_nc_sid=0debeb&_nc_eui2=AeGGzUVQy2SggXstDaN1oJwRwTCR84mhpzXBMJHziaGnNQGBmSHKn-xB5EEhXog59MF9lL7l1oi_JiwLhQupAe5H&_nc_ohc=0McduFk-h6EAX9fbTAl&_nc_ht=scontent.fcrk1-1.fna&oh=b2c7012c211180b6099ac6d181222087&oe=6006F31C);
+            background-size:cover;
+            background-position:center;
+            border-radius: 20px;
+            padding: 0px;
+            text-align: center;
+
+        }
+        .contentinner {
+          background: rgba(0, 0, 0, 0.267);
+          padding: 20px;
+          border-radius: 20px;
+        }
+        .contentinner p {
+        
+            color: white;
+            font-size: 25px;
+            text-align:justify;
+            padding: 10px 50px;
+            justify-content:baseline;
+        }
+        .contentinner h2 {
+          color:#ececec;
+            font-size: 50px;
+        }
+
+        .contentinner h3 {
+          color: aliceblue;
+        
+        }
+
+
+
+      </style>
+
+  </head>
+  <body onload="startNow()">
+
+    <header>
+    
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+          <a class="navbar-brand text-info logo " href="../../index.html">Stories Behind the Notebook<span class="sr-only">(current)</span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="../../teachers.html">Teachers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../student.html">Students</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../staff.html">Staff</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../about.html">About</a>
+              </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-2">
+              <button class=" text-info border border-info btn btn-outline my-sm-3 my-sm-0" type="submit" ><a href="../../contactus.html" class="hov">Contact Us</a></button>            </form>
+            </form>
+          </div>
+        </nav>
+      
+      </header> <br> <br><br> <br><br> <br>
+
+
+
+      <main class="content2">
+        <div class="contentinner">
+                <h2>Student</h2>
+                <h3>Studyante ng NU-Maynila</h3>
+                <br>
+                <iframe width="80%" height="500px" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+              
+                  <p>
+                     Ako’y isang mag-aaral ng National University sa Maynila. Nsa ika-unang taon pa lamang ako. 
+                  </p>
+                  <p>
+                     Bilang isang mag aaral mayroon akong sinusunod na pagpapahalaga sa kabutihan (CORE VALUES) Kagaya ng Paggalang sa nakakatanda pag sabi ng “Po at OOpo “ paggalang sa bawat desisyon ng kamag-aral Paggalang sa batas ng paaralan. 
+                  </p>
+                  <p>
+                     Bilang isang nationalian ako ay mapagkakatiwalaan kagaya ng hindi pandaraya sa pagsusulit Pagsasabi ng totoo at pagiging masipag. 
+                  </p>
+                  <p>
+                     Dahil nakikita ko ang ibang estudyante ng N.U ay naglilinis sa labas ng Universidad. Bilang isang estudyante pala ay hindii rin madali dahil maraming pagsusulit ang dapat mong maipasa marami kang kakabisaduhin at aaralin upang maipasa mo ang bawat agham. 
+                  </p>
+                  <p>
+                     Nakikita ko ang pagkakaisa ng bawat Nationalian dahil sa isang klase may ibat ibang kurso ang naroon kagaya ng Marketing, HRM at iba pa. 
+                  </p>
+                  <p>
+                     Makikita mo sakanila na sila ay nagkakasundo sa bawat proyekto ng aming paaralan. Naalala ko noong ako’y bago pa lamang sa paaralan na ito ako ay naliligaw at nagtanong sa kapwa kong estudyante na kung saan ang aking silid aralan agad agad niya akong sinamahan sa aking silid at ako ay nagpasalamat sa kanya. 
+                  </p>
+                  <p>
+                     Kahit may naiiwan na gamit sa isang silid ito ay hindi nawawala kagaya ng aking nasaksihan may nakita akong Cellphone na naka charge sa loob ng silid hindi ko to ginagalaw ganoon rin ang aking mga kamag-aral dahil alam nilang hindi kanila binalikan agad ito ng may-ari at nagpasalamat sa amin at yung nahulog ko ang aking i.d at wallet naiiyak na ako noon ngunit may kumatok sa aming silid aralan at nagpakilala na siya ang nakapulot ng aking i.d at wallet laking tuwa ko na may ganoon pa palang tao sa mundo dahil karamihan sa mga tao ngayon ay maoagsamantala. 
+                  </p>
+                  <p>
+                     Ang aking karanasan ay nagpapakita na mapagkakatiwalaan ang mga estudyante dito sa aming paaralan. Mababait ang mga guro dito sa N.U at hindi kami nakakalabas ng silid aralan na wala kaming baon na kaalamanan o aral marami akong natututunan bilang isang mabuting mag-aaral. 
+                  </p>
+                  <p>
+                     Naniniwala ako na ang kabataan ang pag-asa ng bayan. Magagawa ko ito sa pamamagitan ng pag-aaral nang mabuti, at pag-iwas sa bisyo o sa anumang masasamang gawain katulad ng sugal. 
+                  </p>
+                  <p>
+                     Pipilitin ko rin maging isa mabuting halimbawa sa mga kapwa ko kabataan. Lubos akong naniniwala na ang mga simple at maliliit na paraan kong ito ay isang malaking tulong sa pagpapa-unlad ng bansang aking kinabibilangan. 
+                  </p>
+                  <p>
+                     Kahit anong hirap ay kakayanin ko huwag mawalan ng pag-asa sa bawat pagsubok bilang isang estudyante maraming tao talaga ang hihilahin ka pababa ngunit tiwala lang sa sarili ang kailangan, sipag ,Tiyaga at huwag na huwag kalimutan ang pananampalataya sa ating Mahal na Panginoon tutulungan niya tayo at gagabayan. 
+                  </p>
+                  <p>
+                     Mabilis nalang ang taon sa panahon ngayon magsikap lang tayo bilang isang mabuti at masipag na estudyante hindi natin mamamalayan na tayo ay makakapag tapos na sa pag-aaral at balang araw magtatagumpay tayo sa buhay na ating haharapin.
+                  </p>
+
+        </div>
+ 
+  
+
+
+        <div class="commentsection">
+            <br>
+
+            <!--COMMENTS SECTION-->
+            <h4 style="text-align: center; color: white; margin-left: 100px; font-size: 40px;">Comments</h4>
+            <br>
+            <div class="commentscontainer">
+                
+                <div class="singlecomment">
+                    <div class="avatar"></div>
+                    <div class="commentcontent">
+                        <h4>Lorem</h4>
+                        <p class="comment">Lorem ipsum dolor sit amet, an nam fastidii liberavisse.</p>
+                    </div>
+                </div>
+                
+                <div class="singlecomment">
+                    <div class="avatar"></div>
+                    <div class="commentcontent">
+                        <h4>Onlinesaticfaction Visitor</h4>
+                        <p class="comment">Lorem ipsum dolor sit amet, an nam fastidii liberavisse. Justo dolores et vim. Ei per graecis suavitate molestiae, ea inermis antiopam qui, cum persius facilisi consequat in.</p>
+                    </div>
+                </div>
+                
+                <div class="singlecomment">
+                    <div class="avatar"></div>
+                    <div class="commentcontent">
+                        <h4>Joey</h4>
+                        <p class="comment">Lorem ipsum dolor sit amet, an nam fastidii liberavisse. Ei per graecis suavitate molestiae, ea inermis antiopam qui.</p>
+                    </div>
+                </div>
+                
+                <div class="singlecomment">
+                    <div class="avatar"></div>
+                    <div class="commentcontent">
+                        <h4>Marco</h4>
+                        <p class="comment">Lorem ipsum dolor sit amet, an nam fastidii liberavisse. Lorem ipsum dolor sit amet, an nam fastidii liberavisse. Ei per graecis suavitate molestiae, ea inermis antiopam qui. Lorem ipsum dolor sit amet, an nam fastidii liberavisse. Ei per graecis suavitate molestiae, ea inermis antiopam qui. Lorem ipsum dolor sit amet, an nam fastidii liberavisse. Ei per graecis suavitate molestiae, ea inermis antiopam qui. <p class="comment">Lorem ipsum dolor sit amet, an nam fastidii liberavisse. Ei per graecis suavitate molestiae, ea inermis antiopam qui.</p>
+                    </div>
+                </div>
+                
+            </div>
+    
+            <div class="commentarea">
+                <h4 style="margin-left: 0px; color:#ffffff; font-size: 30px;"><strong>Post your comment</strong></h4>
+                <br>
+                <div class="addcomment">
+                    <div class="myavatar"></div>
+                    <textarea class="commentbox"
+                            id="commentbox"></textarea>
+                    <div class="sendbutton">Comment</div>
+                </div>
+            </div>
+    
+        </div>
+        
+    </main>
+
+    
+
+    
+  
+    <hr class="featurette-divider">
+  
+
+        <!-- FOOTER -->
+        <footer class="foot">
+          <div>    
+            <h2> Follow us : </h2>	
+            <ul>  
+                <li>
+                    <a href="https://www.facebook.com/BESHouseOfChicken/" target="_blank">
+                        <img src="../../img/bes.png" height="100px" width="100px">
+                    </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/ilovedanielscoffee/" target="_blank">
+                      <img src="../../img/daniels.jpeg" height="100px" width="100px">
+                  </a>
+                </li>
+                  <li>
+                    <a href="https://www.facebook.com/KDRAdventureCamp/" target="_blank">
+                        <img src="../../img/kdr.jpeg" height="100px" width="100px">
+                    </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/marcid.blue/" target="_blank">
+                      <img src="../../img/marcid.jpeg" height="100px" width="100px">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/salutmanilacentris/" target="_blank">
+                      <img src="../../img/salut.jpeg" height="100px" width="100px">
+                  </a>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                  <a href="https://www.facebook.com/Morongstar" target="_blank">
+                      <img src="../../img/morong box.png" height="100px" width="300px">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/SmallvilleDiveCenterAndResort" target="_blank">
+                      <img src="../../img/smallville box.png" height="100px" width="300px">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/EFSApparel/" target="_blank">
+                      <img src="../../img/efs box.png" height="100px" width="300px">
+                  </a>
+                </li>
+            </ul>
+             
+          
+            <p>&copy;2020-2021  &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </div>
+        </footer>
+      </main>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
